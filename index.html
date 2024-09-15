@@ -1,0 +1,342 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asmin Shrestha - Web Developer from Nepal. Explore my portfolio to see my work and skills.">
+    <meta name="keywords" content="Asmin Shrestha, Web Developer, Nepal, Portfolio, Web Development, Skills, Projects">
+    <meta name="author" content="Asmin Shrestha">
+    <title>Asmin Shrestha - Web Developer Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./IMAGES/Asmin_Shrestha_logo.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f395046c99.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="./IMAGES/Asmin_Shrestha_logo.png" alt="Asmin Shrestha Web Developer Logo" class="mylogo"> </a>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#works">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-list" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello, I'm <span>Asmin </span> <br>Shrestha from Nepal!!</h1>
+
+            </div>
+            <a href="./IMAGES/Asmin-ShresthaP_CV.pdf" id="fbtn" class="btn btn2 ">See My Cv</a>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./IMAGES/Asmin_Shrestha_about.png" alt="It's me"~>
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello there! I'm <span>Asmin Shrestha</span>, a passionate individual eager to embark on the
+                        exciting journey of technology and creativity. As a budding enthusiast, I'm committed to
+                        learning and growing in the ever-evolving landscape of web development and design. Join me as I
+                        share my experiences, challenges, and the joy of discovery on this exhilarating adventure. Let's
+                        build something amazing together!</p>
+                    <div class="tab-titles">
+                        <!-- onclick="opentab('Skills')" -- To show the content on clicking the skills menu -->
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML <br>CSS <br> JS(React Js) <br>Dot net <br>
+                                PHP</li>
+                            <li><span> Video Editing</span> <br>After Effects <br>Nuke <br>Photoshop <br>Adobe
+                                Illustartor</li>
+                            <li> <span>Content Writing</span></li>
+                        </ul>
+                    </div>
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+                            <li><span> April 2022-July 2023</span> <br> VFX Artist at Godrays Picture <br></li>
+                            <li><span>Jan 2023-Feb 2023</span><br>Content Writer at Traveldetails <br></li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+
+                        <ul>
+                           <li> <span id="current-period">2021</span><br>
+                                Studying BIT in Bhaktapur Multiple Campus </li>
+                            <li><span>2018-2020</span><br>Plus 2 from LIverpool Int'l College (Physical Science) <br>
+                            </li>
+                            <li><span> 2017-2018</span> <br> SEE from ASBS <br></li>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Services------------- -->
+    <div id="services" class="container">
+        <!-- -----Heading---- -->
+        <div class="container-services">
+            <h1 class=" sub-title-services"> My Services</h1>
+            <p>I’m all about turning ideas into reality with a splash of code and creativity! I’m skilled in HTML, CSS, and JavaScript, and I’m also diving into the world of PHP Laravel to expand my programming horizons. My creative side shines through in content creation, from writing compelling stories and editing captivating videos to enhancing images with Photoshop. I even dabble in Rotoscope/Paintout for that extra touch of magic. Let’s join forces and make something amazing together, blending code and creativity in perfect harmony! 🌟</p>
+
+        </div>
+        <div class="services-row">
+            <!-- -----left section----- -->
+            <section class="services-row-col">
+                <div class="sub-title">
+                    <h2>Programming Skills</h2>
+
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="90%">
+                            <div class="progress-line" style="max-width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="75%">
+                            <div class="progress-line" style="max-width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">JS</div>
+                        <div class="progress-bar" value="45%">
+                            <div class="progress-line" style="max-width: 45%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">React JS</div>
+                        <div class="progress-bar" value="45%">
+                            <div class="progress-line" style="max-width: 45%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">PHP</div>
+                        <div class="progress-bar" value="25%">
+                            <div class="progress-line" style="max-width: 25%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">C / C#</div>
+                        <div class="progress-bar" value="25%">
+                            <div class="progress-line" style="max-width: 25%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ------Right section------ -->
+            <section class="services-row-col">
+                <div class="sub-title">
+                    <h2>Other Skills</h2>
+
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">Content Writing</div>
+                        <div class="progress-bar" value="90%">
+                            <div class="progress-line" style="max-width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Video Editing</div>
+                        <div class="progress-bar" value="80%">
+                            <div class="progress-line" style="max-width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Photo Editing / Photoshop</div>
+                        <div class="progress-bar" value="75%">
+                            <div class="progress-line" style="max-width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Rotoscope/Paintout</div>
+                        <div class="progress-bar" value="45%">
+                            <div class="progress-line" style="max-width: 45%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+    <!-- ---------My Works-------- -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <p>Discovering the world of coding and design, my works reflect my journey as a beginner exploring the
+                realms of creativity. Each project is a step forward, a canvas where I learn and experiment. Join me on
+                this exciting path, filled with simple yet meaningful creations, as I embrace the joy of being a
+                beginner in the vast world of technology and design.</p>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./IMAGES/AsminShrestha_work1.png" alt="">
+                    <div class="layer">
+                        <h3>Education University Web Design | HTML, CSS, JS Project</h3>
+                        <p>Designed a responsive university website using HTML, CSS, and JavaScript, showcasing a clean and modern interface for educational institutions. </p>
+                        <a href="https://asminstha.github.io/University_Web_Design/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./IMAGES/Asmin_Shrestha_work_2.png" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Using React JS for My Brother</h3>
+                        <p>Created a dynamic and interactive portfolio website with React JS, tailored for personal branding and showcasing professional achievements.</p>
+                        <a href="https://dipankarstha.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./IMAGES/Asmin_Shrestha_work3.png" alt="">
+                    <div class="layer">
+                        <h3>Manpower Website Using HTML, CSS,JS & Laravel </h3>
+                        <p>Developed a comprehensive manpower recruitment website using HTML, CSS, and JavaScript, with plans to integrate Laravel for enhanced functionality and performance.</p>
+                        <a href="https://swiftgurkha.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------Achievements------
+ -->
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <p>I take pride in my accomplishments, having earned recognition such as the Content Writing Award and the
+                CFC Certificate. These achievements reflect my dedication and passion for excellence in my endeavors.
+                Excited for more milestones ahead!</p>
+            <div class="achievements-list">
+                <div class="achievement">
+                    <img src="./IMAGES/cw.png" alt="">
+
+                </div>
+                <div class="achievement">
+                    <img src="./IMAGES/cfc certificate.png" alt="">
+
+                </div>
+
+            </div>
+            <a href="./IMAGES/content writing certificate.pdf" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------contact------- -->
+    <div id="contact">
+        <div class="c-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" id="res-contact">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>asim.sth135@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9861362710</p>
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/@measmin" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://github.com/Asminstha" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/asminshrestha" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <!-- ----CV----  -->
+                    <a href="./IMAGES/Asmin-ShresthaP_CV.pdf" id="resbtn" class="btn btn2">See My Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="Message" placeholder="Your Query" cols="3" rows="4"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Made by <span>Asmin Shrestha</span></p>
+        </div>
+    </div>
+
+    <!-- To show the contents of tablinks when clicked  -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    // Get the current date
+    const now = new Date();
+
+    // Extract current year and month
+    const year = now.getFullYear();
+    // const month = now.toLocaleString('default', { month: 'long' });
+
+    // Format the date string
+    const currentPeriod = `2021-${year}`;
+
+    // Update the span with the current period
+    document.getElementById('current-period').textContent = currentPeriod;
+</script>
+
+<!-- seo  -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Asmin Shrestha",
+      "jobTitle": "Web Developer",
+      "url": "https://asminstha.com.np",
+      "sameAs": [
+        "https://www.youtube.com/@measmin",
+        "https://github.com/Asminstha",
+        "https://www.linkedin.com/in/asminshrestha"
+
+      ]
+    }
+  
+    </script>
+    
+
+</body>
+
+</html>
