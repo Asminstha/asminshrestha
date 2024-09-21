@@ -403,6 +403,8 @@ nav ul li a:hover::after {
     border-radius: 50px;
     transition: 1s;
     box-shadow: 5px 8px 5px yellow;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -429,12 +431,14 @@ nav ul li a:hover::after {
 
 }
 
+
 .achievement:hover img {
     transform: scale(1.1);
 }
 
 .layer {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: clamp(10px, 2.5vw, 14px);
     display: flex;
     height: 0;
     width: 100%;
