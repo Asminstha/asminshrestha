@@ -1,3 +1,5 @@
+/* Portfolio of Asmin Shrestha Made Uisng HTML , CSS And JS  */
+
 * {
     margin: 0;
     padding: 0;
@@ -607,6 +609,9 @@ form .btn2 {
         flex-basis: 100%;
     }
 
+    .con-row{
+        padding: 0;
+    }
 
 }
 

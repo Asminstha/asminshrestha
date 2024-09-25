@@ -289,13 +289,14 @@
                     <a href="./IMAGES/Asmin-ShresthaP_CV.pdf" id="resbtn" class="btn btn2">See My Cv</a>
                 </div>
                 <div class="contact-right">
-                    <form >
+                    <form id="contact-form" onsubmit="sendMail(event)">
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
                         <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        <input type="text" id="subject" name="subject" placeholder="Subject Topic" required>
-                        <textarea name="message" id="message" placeholder="Your Query" cols="3" rows="4" required></textarea>
-                        <button type="submit" class="btn btn2" onclick="sendMail()">Submit</button>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <textarea id="message" name="message" placeholder="Your Query" required></textarea>
+                        <button type="submit"  class="btn btn2" id="submit-button">Submit</button>
                     </form>
+                    
                 </div>
             </div>
         </div>
