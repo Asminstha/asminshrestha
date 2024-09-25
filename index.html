@@ -9,6 +9,19 @@
     
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f395046c99.js" crossorigin="anonymous"></script>
+
+    <!-- email js for contact form  -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "q9QCU0cwDODY-Zwf5",
+  });
+})();
+</script>
+<script src="emailscript.js"></script>
 </head>
 
 <body>
@@ -263,11 +276,10 @@
     <!-- ------contact------- -->
     <div id="contact">
         <div class="c-container">
-            <div class="row">
+            <div class="row con-row">
                 <div class="contact-left">
                     <h1 class="sub-title" id="res-contact">Contact Me</h1>
                     <p><i class="fa-regular fa-envelope"></i>asim.sth135@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>9861362710</p>
                     <div class="social-icons">
                         <a href="https://www.youtube.com/@measmin" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                         <a href="https://github.com/Asminstha" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -277,17 +289,18 @@
                     <a href="./IMAGES/Asmin-ShresthaP_CV.pdf" id="resbtn" class="btn btn2">See My Cv</a>
                 </div>
                 <div class="contact-right">
-                    <form action="">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email">
-                        <textarea name="Message" placeholder="Your Query" cols="3" rows="4"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                    <form >
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <input type="text" id="subject" name="subject" placeholder="Subject Topic" required>
+                        <textarea name="message" id="message" placeholder="Your Query" cols="3" rows="4" required></textarea>
+                        <button type="submit" class="btn btn2" onclick="sendMail()">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright <i class="fa-regular fa-copyright"></i> Made by <span>Asmin Shrestha</span></p>
+            <p>Copyright <i class="fa-regular fa-copyright"></i> <span> <strong>Asmin Shrestha</strong></span></p>
         </div>
     </div>
 
