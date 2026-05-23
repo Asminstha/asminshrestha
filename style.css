@@ -90,6 +90,7 @@ nav ul li a:hover::after {
 
 }
 
+
 #fbtn {
     font-size: 20px;
     font-weight: bold;
@@ -112,6 +113,35 @@ nav ul li a:hover::after {
 
 .header-text h1 span {
     color: yellow;
+}
+
+.btn-latest-portfolio {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 13px 34px;
+    background: linear-gradient(90deg, #ffe43b 65%, #d03645 120%);
+    color: #181818;
+    font-weight: 700;
+    font-size: 1.18rem;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px #ffe43b45;
+    transition: all 0.22s;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+.btn-latest-portfolio i {
+    margin-left: 8px;
+    font-size: 1.02em;
+    vertical-align: middle;
+}
+.btn-latest-portfolio:hover,
+.btn-latest-portfolio:focus {
+    background: linear-gradient(90deg, #d03645 10%, #ffe43b 80%);
+    color: #fff;
+    outline: none;
+    box-shadow: 0 2px 18px #d03645a4;
+    transform: translateY(-2px) scale(1.04);
 }
 
 /* ------about me---------- */
@@ -624,6 +654,15 @@ form .btn2 {
 
     }
 
+     .btn-latest-portfolio {
+        padding: 9px 5vw;
+        font-size: 0.5em;
+        width: 90%;
+        min-width: 0;
+        border-radius: 20px;
+        margin-top: 12px;
+        text-align: center;
+    }
     .header-text p {
         font-size: 61px;
 
